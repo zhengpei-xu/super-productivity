@@ -25,5 +25,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist/super-productivity
+          folder: .tmp/angular-dist
           branch: gh-pages

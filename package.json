@@ -137,7 +137,8 @@
     "plugin-api:build:watch": "cd packages/plugin-api && npm run build:watch",
     "vite-plugin:build": "cd packages/vite-plugin && npm run build",
     "plugins:build": "npm run plugin-api:build && npm run vite-plugin:build && cd packages/plugin-dev && npm run build:all",
-    "plugins:build:silent": "npm run vite-plugin:build && cd packages/plugin-dev && npm run build:all:silent"
+    "plugins:build:silent": "npm run vite-plugin:build && cd packages/plugin-dev && npm run build:all:silent",
+    "deploy": "npx ng build --configuration production --base-href /super-productivity/ && npx gh-pages -d dist/super-productivity"
   },
   "resolutions": {
     "sass": "1.32.6",
@@ -242,6 +243,7 @@
     "fflate": "^0.8.2",
     "file-saver": "^2.0.5",
     "fs-extra": "^11.3.3",
+    "gh-pages": "^6.3.0",
     "glob": "^13.0.0",
     "http-server": "^14.1.1",
     "husky": "^9.1.7",

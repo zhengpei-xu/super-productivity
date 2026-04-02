@@ -1,0 +1,29 @@
+name: Personal Web Deploy
+
+on:
+  push:
+    branches:
+      - master # 请确认你的主分支是 master 还是 main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20 # 使用稳定的版本进行云端构建
+
+      - name: Install and Build
+        run: |
+          npm install
+          npx ng build --configuration production --base-href /super-productivity/
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist/super-productivity
+          branch: gh-pages

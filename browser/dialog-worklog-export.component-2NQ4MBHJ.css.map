@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/worklog/dialog-worklog-export/dialog-worklog-export.component.scss"],
+  "sourcesContent": ["@media (min-width: var(--layout-xs)) {\n  .row {\n    display: flex;\n  }\n  .col {\n    width: 50%;\n  }\n}\n\n#task-textarea {\n  width: 100%;\n  @media (min-width: var(--layout-xs)) {\n    min-width: 70vw;\n  }\n}\n"],
+  "mappings": "AAAA,OAAA,CAAA,SAAA,EAAA,IAAA,cACE,CAAA,IACE,QAAA,KAEF,CAAA,IACE,MAAA,KAIJ,CAAA,cACE,MAAA,KACA,OAAA,CAAA,SAAA,EAAA,IAAA,cAFF,CAAA,cAGI,UAAA",
+  "names": []
+}

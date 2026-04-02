@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/imex/sync/dialog-get-and-enter-auth-code/dialog-get-and-enter-auth-code.component.scss"],
+  "sourcesContent": [".oauth-waiting {\n  display: flex;\n  align-items: center;\n  gap: var(--s);\n}\n"],
+  "mappings": "AAAA,CAAA,cACE,QAAA,KACA,YAAA,OACA,IAAA,IAAA",
+  "names": []
+}

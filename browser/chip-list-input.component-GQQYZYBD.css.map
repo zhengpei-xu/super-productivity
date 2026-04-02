@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/ui/chip-list-input/chip-list-input.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n\n  mat-form-field {\n    display: block;\n  }\n}\n\n.additional {\n  transition: var(--transition-fast);\n  opacity: 0;\n  transform: scale(0.1);\n  width: 0;\n  position: relative;\n  z-index: 1;\n  transform-origin: center center;\n  margin-top: -2px;\n  height: 40px;\n\n  color: var(--text-color);\n\n  mat-icon {\n    font-size: 22px;\n    max-height: 32px;\n  }\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MAEA,MAAA,eACE,QAAA,MAIJ,CAAA,WACE,WAAA,IAAA,mBACA,QAAA,EACA,UAAA,MAAA,IACA,MAAA,EACA,SAAA,SACA,QAAA,EACA,iBAAA,OAAA,OACA,WAAA,KACA,OAAA,KAEA,MAAA,IAAA,cAEA,CAbF,WAaE,SACE,UAAA,KACA,WAAA",
+  "names": []
+}

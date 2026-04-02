@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/issue/providers/open-project/open-project-view-components/dialog-openproject-transition/dialog-open-project-transition.component.scss"],
+  "sourcesContent": ["mat-slider {\n  width: 100%;\n}\n"],
+  "mappings": "AAAA,WACE,MAAA",
+  "names": []
+}

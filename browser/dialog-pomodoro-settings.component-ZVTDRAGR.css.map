@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;402f436cb13f011fcc802247de0c8a199f98b3eaa7341cdb2fdd63d0f1041d56;/home/runner/work/super-productivity/super-productivity/src/app/features/focus-mode/dialog-pomodoro-settings/dialog-pomodoro-settings.component.ts"],
+  "sourcesContent": ["\n      .dialog-actions {\n        display: flex;\n        gap: 8px;\n        margin-top: 16px;\n      }\n\n      .spacer {\n        flex: 1;\n      }\n    "],
+  "mappings": "AACM,CAAC,eACC,QAAS,KACT,IAAK,IACL,WAAY,IACd,CAEA,CAAC,OACC,KAAM,CACR",
+  "names": []
+}

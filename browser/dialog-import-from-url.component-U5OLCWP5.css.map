@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/imex/dialog-import-from-url/dialog-import-from-url.component.scss"],
+  "sourcesContent": ["/* Styles for dialog-import-from-url component */\n.full-width {\n  width: 100%;\n}\n"],
+  "mappings": "AACA,CAAA,WACE,MAAA",
+  "names": []
+}

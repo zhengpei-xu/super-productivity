@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/op-log/sync-providers/file-based/webdav/webdav.ts"],
+  "sourcesContent": ["import { SyncProviderId } from '../../provider.const';\nimport { WebdavBaseProvider } from './webdav-base-provider';\n\n/**\n * Standard WebDAV sync provider.\n * Uses the WebDAV protocol for synchronization with any WebDAV-compatible server\n * (Nextcloud, ownCloud, Apache mod_dav, etc.).\n */\nexport class Webdav extends WebdavBaseProvider<SyncProviderId.WebDAV> {\n  readonly id = SyncProviderId.WebDAV;\n\n  protected override get logLabel(): string {\n    return 'Webdav';\n  }\n}\n"],
+  "mappings": "kRAAA,IAQaA,EARbC,EAAAC,EAAA,KAAAC,IACAC,IAOaJ,EAAP,cAAsBK,CAAyC,CAArEC,aAAA,qBACW,KAAAC,GAAKC,EAAeC,MAK/B,CAHE,IAAuBC,UAAQ,CAC7B,MAAO,QACT",
+  "names": ["Webdav", "init_webdav", "__esmMin", "init_provider_const", "init_webdav_base_provider", "WebdavBaseProvider", "constructor", "id", "SyncProviderId", "WebDAV", "logLabel"]
+}

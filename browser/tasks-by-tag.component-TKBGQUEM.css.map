@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/tasks/tasks-by-tag/tasks-by-tag.component.scss"],
+  "sourcesContent": [":host {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  margin-top: var(--s5);\n  margin-bottom: var(--s);\n\n  h3 {\n    margin-bottom: var(--s);\n    font-weight: bold;\n  }\n}\n\ntd {\n  text-align: left;\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,KACA,YAAA,OACA,eAAA,OACA,WAAA,IAAA,MACA,cAAA,IAAA,KAEA,MAAA,GACE,cAAA,IAAA,KACA,YAAA,IAIJ,GACE,WAAA",
+  "names": []
+}

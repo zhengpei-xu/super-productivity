@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/issue-panel/issue-panel-intro/issue-panel-intro.component.scss"],
+  "sourcesContent": [":host {\n  margin-bottom: var(--s2);\n  display: block;\n}\n"],
+  "mappings": "AAAA,MACE,cAAA,IAAA,MACA,QAAA",
+  "names": []
+}

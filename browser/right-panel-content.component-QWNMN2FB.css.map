@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/right-panel/right-panel-content.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  height: 100%;\n  flex: 1;\n\n  plugin-panel-container {\n    flex: 1;\n    height: 100%;\n    overflow: hidden;\n  }\n}\n\n.panel-wrapper {\n  position: absolute;\n  inset: 0;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  overflow: hidden;\n  will-change: transform; // help compositor for slide-in\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MACA,OAAA,KACA,KAAA,EAEA,MAAA,uBACE,KAAA,EACA,OAAA,KACA,SAAA,OAIJ,CAAA,cACE,SAAA,SAbF,MAcE,EACA,OAAA,KACA,QAAA,KACA,eAAA,OACA,SAAA,OACA,YAAA",
+  "names": []
+}

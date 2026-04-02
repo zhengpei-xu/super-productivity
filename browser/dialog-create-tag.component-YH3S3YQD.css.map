@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/ui/dialog-create-tag/dialog-create-tag.component.scss"],
+  "sourcesContent": [".content {\n  margin-bottom: var(--s2);\n  width: 20em;\n}\n\n.content h2 {\n  margin: 0;\n  font-size: 1.25rem;\n  font-weight: 500;\n}\n\nmat-form-field {\n  width: 100%;\n  margin-bottom: var(--s2);\n}\n\n.wrap-buttons {\n  display: flex;\n  gap: var(--s);\n}\n\n.submit-button {\n  min-width: 80px;\n}\n"],
+  "mappings": "AAAA,CAAA,QACE,cAAA,IAAA,MACA,MAAA,KAGF,CALA,QAKA,GALA,OAME,EACA,UAAA,QACA,YAAA,IAGF,eACE,MAAA,KACA,cAAA,IAAA,MAGF,CAAA,aACE,QAAA,KACA,IAAA,IAAA,KAGF,CAAA,cACE,UAAA",
+  "names": []
+}

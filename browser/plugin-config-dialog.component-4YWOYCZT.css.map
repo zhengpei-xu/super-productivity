@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;610044ef276ba693bf8f6de60c6483c0ec8bd7e26cedb6f4b797a3878967c505;/home/runner/work/super-productivity/super-productivity/src/app/plugins/ui/plugin-config-dialog/plugin-config-dialog.component.ts"],
+  "sourcesContent": ["\n      mat-dialog-content {\n        min-width: 400px;\n        max-width: 600px;\n        max-height: 600px;\n        overflow-y: auto;\n      }\n\n      mat-dialog-actions {\n        gap: 8px;\n      }\n\n      mat-icon {\n        margin-right: 8px;\n      }\n\n      .loading-container {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        padding: 40px;\n      }\n\n      mat-error {\n        display: flex;\n        align-items: center;\n        gap: 8px;\n        padding: 16px;\n      }\n\n      form {\n        padding: 16px 0;\n      }\n    "],
+  "mappings": "AACM,mBACE,UAAW,MACX,UAAW,MACX,WAAY,MACZ,WAAY,IACd,CAEA,mBACE,IAAK,GACP,CAEA,SACE,aAAc,GAChB,CAEA,CAAC,kBACC,QAAS,KACT,gBAAiB,OACjB,YAAa,OAnBrB,QAoBiB,IACX,CAEA,UACE,QAAS,KACT,YAAa,OACb,IAAK,IA1Bb,QA2BiB,IACX,CAEA,KA9BN,QA+BiB,KAAK,CAChB",
+  "names": []
+}

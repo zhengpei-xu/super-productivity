@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/op-log/validation/is-data-repair-possible.util.ts"],
+  "sourcesContent": ["import { AppDataCompleteLegacy } from '../../imex/sync/sync.model';\nimport { AppDataComplete } from '../model/model-config';\n\nexport const isDataRepairPossible = (\n  data: AppDataCompleteLegacy | AppDataComplete,\n): boolean => {\n  if (typeof data !== 'object' || data === null) return false;\n\n  // Use 'in' operator for safe property checks without any cast\n  const hasTask = 'task' in data && typeof data.task === 'object' && data.task !== null;\n  const hasProject =\n    'project' in data && typeof data.project === 'object' && data.project !== null;\n\n  return hasTask && hasProject;\n};\n"],
+  "mappings": "wCAGA,IAAaA,EAAbC,EAAAC,EAAA,kBAAaF,EACXG,GACW,CACX,GAAI,OAAOA,GAAS,UAAYA,IAAS,KAAM,MAAO,GAGtD,IAAMC,EAAU,SAAUD,GAAQ,OAAOA,EAAKE,MAAS,UAAYF,EAAKE,OAAS,KAC3EC,EACJ,YAAaH,GAAQ,OAAOA,EAAKI,SAAY,UAAYJ,EAAKI,UAAY,KAE5E,OAAOH,GAAWE,CACpB",
+  "names": ["isDataRepairPossible", "init_is_data_repair_possible_util", "__esmMin", "data", "hasTask", "task", "hasProject", "project"]
+}

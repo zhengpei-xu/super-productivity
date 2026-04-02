@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/task-repeat-cfg/repeat-task-heatmap/repeat-task-heatmap.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  max-width: 500px;\n  margin-bottom: var(--s2);\n}\n\n.time-summary {\n  display: flex;\n  gap: var(--s2);\n  flex-wrap: wrap;\n  font-size: 13px;\n  margin-bottom: var(--s);\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MACA,UAAA,MACA,cAAA,IAAA,MAGF,CAAA,aACE,QAAA,KACA,IAAA,IAAA,MACA,UAAA,KACA,UAAA,KACA,cAAA,IAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;9ba35150bba52ed635aa9606d106243d7dfc8599adba925efe0717ad8f5dcc0e;/home/runner/work/super-productivity/super-productivity/src/app/plugins/ui/plugin-header-btns.component.ts"],
+  "sourcesContent": ["\n      :host {\n        display: contents;\n      }\n    "],
+  "mappings": "AACM,MACE,QAAS,QACX",
+  "names": []
+}

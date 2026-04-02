@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/ui/progress-circle/progress-circle.component.scss"],
+  "sourcesContent": [":host {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  pointer-events: none;\n  display: inline-flex;\n  width: 40px;\n  height: 40px;\n  color: var(--progress-circle-color, var(--c-accent));\n}\n\n.progress-circle__svg {\n  width: 100%;\n  height: 100%;\n  transform: rotate(-90deg);\n}\n\n.progress-circle__bg {\n  stroke: currentColor;\n  opacity: 0.2;\n}\n\n.progress-circle__progress {\n  stroke: currentColor;\n  transition: stroke-dashoffset 0.3s ease;\n}\n\n.progress-circle__pulse {\n  stroke: currentColor;\n  animation: progress-circle-pulse 2s ease-in-out infinite;\n}\n\n@keyframes progress-circle-pulse {\n  0%,\n  100% {\n    opacity: 0.5;\n    stroke-width: 2;\n  }\n\n  50% {\n    opacity: 1;\n    stroke-width: 2;\n  }\n}\n"],
+  "mappings": "AAAA,MACE,SAAA,SACA,IAAA,IACA,KAAA,IACA,UAAA,UAAA,IAAA,CAAA,MACA,eAAA,KACA,QAAA,YACA,MAAA,KACA,OAAA,KACA,MAAA,IAAA,uBAAA,EAAA,IAAA,aAGF,CAAA,qBACE,MAAA,KACA,OAAA,KACA,UAAA,OAAA,QAGF,CAAA,oBACE,OAAA,aACA,QAAA,GAGF,CAAA,0BACE,OAAA,aACA,WAAA,kBAAA,IAAA,KAGF,CAAA,uBACE,OAAA,aACA,UAAA,sBAAA,GAAA,YAAA,SAGF,WAHE,sBAIA,MAEE,QAAA,GACA,aAAA,EAGF,IACE,QAAA,EACA,aAAA",
+  "names": []
+}

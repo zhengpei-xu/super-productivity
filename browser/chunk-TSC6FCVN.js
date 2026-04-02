@@ -1,0 +1,2 @@
+import{B as e,F as r,P as p,S as i,W as a,ab as f,ga as s,ka as T,sa as l}from"./chunk-GENRFGET.js";import{e as t}from"./chunk-2NYJ54WT.js";var u,_,c=t(()=>{"use strict";l();f();u=()=>navigator.onLine!==!1,_=r(e(window,"offline").pipe(i(!1)),e(window,"online").pipe(i(!0))).pipe(p(1e3),T(navigator.onLine),a(),s(1))});var g,m=t(()=>{"use strict";g=(n,o=40)=>n&&n.length>o?n.substring(0,o-1)+"\u2026":n});export{g as a,m as b,u as c,_ as d,c as e};
+//# sourceMappingURL=chunk-TSC6FCVN.js.map

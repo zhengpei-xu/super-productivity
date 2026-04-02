@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/util/is-mobile.ts"],
+  "sourcesContent": ["export const IS_MOBILE =\n  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(\n    navigator.userAgent,\n  );\n"],
+  "mappings": "mCAAA,IAAaA,EAAbC,EAAAC,EAAA,kBAAaF,EACX,iEAAiEG,KAC/DC,UAAUC,SAAS",
+  "names": ["IS_MOBILE", "init_is_mobile", "__esmMin", "test", "navigator", "userAgent"]
+}

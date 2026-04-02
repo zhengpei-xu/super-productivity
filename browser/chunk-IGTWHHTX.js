@@ -1,0 +1,2 @@
+import{ee as i,ya as a}from"./chunk-GENRFGET.js";import{e as s}from"./chunk-2NYJ54WT.js";var c,n=s(()=>{"use strict";i();c=(()=>{class e{constructor(){this._adapters=new Map}register(t,r){this._adapters.set(t,r)}get(t){return this._adapters.get(t)}has(t){return this._adapters.has(t)}unregister(t){this._adapters.delete(t)}static{this.\u0275fac=function(r){return new(r||e)}}static{this.\u0275prov=a({token:e,factory:e.\u0275fac,providedIn:"root"})}}return e})()});export{c as a,n as b};
+//# sourceMappingURL=chunk-IGTWHHTX.js.map

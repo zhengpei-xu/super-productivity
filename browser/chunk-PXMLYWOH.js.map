@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/util/is-native-platform.ts"],
+  "sourcesContent": ["import { Capacitor } from '@capacitor/core';\nimport { IS_ANDROID_WEB_VIEW } from './is-android-web-view';\n\n/**\n * Whether running in a native Capacitor context (iOS or Android).\n * This can be used in constants that are evaluated at module load time.\n */\nexport const IS_NATIVE_PLATFORM = Capacitor.isNativePlatform() || IS_ANDROID_WEB_VIEW;\n\n/**\n * Whether running on iOS native (Capacitor).\n */\nexport const IS_IOS_NATIVE = Capacitor.getPlatform() === 'ios';\n\n/**\n * Whether running on Android native (Capacitor or WebView).\n */\nexport const IS_ANDROID_NATIVE =\n  Capacitor.getPlatform() === 'android' || IS_ANDROID_WEB_VIEW;\n"],
+  "mappings": "sIAAA,IAOaA,EAKAC,EAKAC,EAjBbC,EAAAC,EAAA,kBAAAC,IACAC,IAMaN,EAAqBO,EAAUC,iBAAgB,GAAMC,EAKrDR,EAAgBM,EAAUG,YAAW,IAAO,MAK5CR,EACXK,EAAUG,YAAW,IAAO,WAAaD",
+  "names": ["IS_NATIVE_PLATFORM", "IS_IOS_NATIVE", "IS_ANDROID_NATIVE", "init_is_native_platform", "__esmMin", "init_dist", "init_is_android_web_view", "Capacitor", "isNativePlatform", "IS_ANDROID_WEB_VIEW", "getPlatform"]
+}

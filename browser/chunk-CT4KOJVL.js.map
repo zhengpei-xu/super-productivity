@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/util/datetime-formatter.ts"],
+  "sourcesContent": ["import { DEFAULT_LOCALE, DateTimeLocale } from '../core/locale.constants';\n\n/**\n * Core datetime formatter\n * This function is used to format date and times in the app.\n * You should use it everywhere for date and time formatting\n *\n * TODO LocaleDatePipe should use this function too\n * If we go further, perhaps we could improve this func to remove the current DatePipe (imported from @angular/common) in LocaleDatePipe.\n */\nexport const dateTimeFormatter = (\n  locale: DateTimeLocale,\n  overrides?: Intl.DateTimeFormatOptions,\n): Intl.DateTimeFormat => {\n  return new Intl.DateTimeFormat([locale, DEFAULT_LOCALE], {\n    month: 'numeric',\n    day: 'numeric',\n    ...overrides,\n  });\n};\n"],
+  "mappings": "8FAAA,IAUaA,EAVbC,EAAAC,EAAA,kBAAAC,IAUaH,EAAoBA,CAC/BI,EACAC,IAEO,IAAIC,KAAKC,eAAe,CAACH,EAAQI,CAAc,EAAGC,EAAA,CACvDC,MAAO,UACPC,IAAK,WACFN,EACJ",
+  "names": ["dateTimeFormatter", "init_datetime_formatter", "__esmMin", "init_locale_constants", "locale", "overrides", "Intl", "DateTimeFormat", "DEFAULT_LOCALE", "__spreadValues", "month", "day"]
+}

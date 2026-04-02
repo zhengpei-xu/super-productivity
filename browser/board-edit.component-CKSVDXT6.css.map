@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/boards/board-edit/board-edit.component.scss"],
+  "sourcesContent": [".btn-wrapper {\n  margin-top: var(--s2);\n  display: flex;\n  justify-content: flex-end;\n}\n\n:host ::ng-deep {\n  repeat-section-type {\n    //border: 1px solid red !important;\n\n    .footer {\n      margin-top: var(--s);\n    }\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,YACE,WAAA,IAAA,MACA,QAAA,KACA,gBAAA,SAOE,MAAA,UAAA,oBAAA,CAAA,OACE,WAAA,IAAA",
+  "names": []
+}

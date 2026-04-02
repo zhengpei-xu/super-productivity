@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/daily-summary/simple-counter-summary-item/simple-counter-summary-item.component.scss"],
+  "sourcesContent": [":host {\n  margin: var(--s) var(--s2);\n  cursor: pointer;\n\n  .title {\n    margin-bottom: var(--s-half);\n  }\n\n  .value-wrapper {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n\n    mat-icon {\n      font-size: 16px;\n      line-height: 16px;\n      height: 16px;\n    }\n\n    .summary-val {\n      margin-left: var(--s-half);\n      //font-size: 16px;\n      font-weight: bold;\n    }\n  }\n}\n"],
+  "mappings": "AAAA,MACE,OAAA,IAAA,KAAA,IAAA,MACA,OAAA,QAEA,MAAA,CAAA,MACE,cAAA,IAAA,UAGF,MAAA,CAAA,cACE,QAAA,KACA,gBAAA,OACA,YAAA,OAEA,MAAA,CALF,cAKE,SACE,UAAA,KACA,YAAA,KACA,OAAA,KAGF,MAAA,CAXF,cAWE,CAAA,YACE,YAAA,IAAA,UAEA,YAAA",
+  "names": []
+}

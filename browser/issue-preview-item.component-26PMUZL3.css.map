@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/issue-panel/issue-preview-item/issue-preview-item.component.scss"],
+  "sourcesContent": ["@use '../../../../styles/_globals.scss' as *;\n\n:host {\n  //@include grabCursor();\n  display: flex;\n  align-items: center;\n  padding: 0;\n  border-radius: 6px;\n  //border: 1px solid;\n\n  background: var(--task-c-bg);\n  box-shadow: var(--task-shadow);\n  color: var(--text-color);\n  //border-color: var(--extra-border-color);\n\n  &.isDone {\n    opacity: 0.7;\n\n    .title {\n      text-decoration: line-through;\n    }\n  }\n}\n\n.title {\n  flex-grow: 1;\n  padding: var(--s-half) 0;\n}\n\n.open-issue {\n  opacity: 0.6;\n}\n"],
+  "mappings": "AAEA,MAEE,QAAA,KACA,YAAA,OAHF,QAIE,EAJF,cAKE,IAGA,WAAA,IAAA,aACA,WAAA,IAAA,eACA,MAAA,IAAA,cAGA,KAAA,CAAA,OACE,QAAA,GAEA,KAAA,CAHF,OAGE,CAAA,MACE,gBAAA,aAKN,CANI,MAOF,UAAA,EACA,QAAA,IAAA,UAAA,EAGF,CAAA,WACE,QAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/issue/shared/dialog-track-time/dialog-track-time.component.scss"],
+  "sourcesContent": [".form-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  justify-content: stretch;\n}\n\n.suffix-wrapper {\n  line-height: 24px;\n\n  button {\n    width: 24px;\n    height: 24px;\n  }\n}\n\n.suffix-icon {\n  font-size: var(--s3);\n}\n\n.default-time-checkbox {\n  margin-bottom: 20px;\n}\n"],
+  "mappings": "AAAA,CAAA,aACE,QAAA,KACA,eAAA,OACA,YAAA,QACA,gBAAA,QAGF,CAAA,eACE,YAAA,KAEA,CAHF,eAGE,OACE,MAAA,KACA,OAAA,KAIJ,CAAA,YACE,UAAA,IAAA,MAGF,CAAA,sBACE,cAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/project-task-page/project-task-page.component.scss"],
+  "sourcesContent": [":host {\n  overflow: hidden !important;\n}\n"],
+  "mappings": "AAAA,MACE,SAAA",
+  "names": []
+}

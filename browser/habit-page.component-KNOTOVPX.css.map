@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;99a6ee7f63168a4bd2a1790211a5836ed0c38b151c694d99497db2ffba03a450;/home/runner/work/super-productivity/super-productivity/src/app/pages/habit-page/habit-page.component.ts"],
+  "sourcesContent": ["\n      .page-wrapper {\n        padding: 16px;\n        max-width: 1000px;\n        margin: 0 auto;\n      }\n    "],
+  "mappings": "AACM,CAAC,aADP,QAEiB,KACT,UAAW,OAHnB,OAIgB,EAAE,IACZ",
+  "names": []
+}

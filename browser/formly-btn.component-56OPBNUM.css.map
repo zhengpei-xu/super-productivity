@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/ui/formly-button/formly-btn.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  margin-bottom: var(--s2);\n}\n\n.value {\n  line-break: anywhere;\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MACA,cAAA,IAAA,MAGF,CAAA,MACE,WAAA",
+  "names": []
+}

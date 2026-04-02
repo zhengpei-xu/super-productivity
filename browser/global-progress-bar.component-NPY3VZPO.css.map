@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/core-ui/global-progress-bar/global-progress-bar.component.scss"],
+  "sourcesContent": [":host {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  z-index: 9999;\n  pointer-events: none;\n  display: block;\n\n  .mat-mdc-progress-bar {\n    height: 3px;\n    box-shadow: var(--whiteframe-shadow-2dp);\n    opacity: 0.3;\n  }\n}\n\n.badge {\n  display: inline-block;\n  pointer-events: none;\n  padding: var(--s-quarter) 6px;\n  font-size: 10px;\n  line-height: 1;\n  border-top-right-radius: var(--card-border-radius);\n  background: var(--bg-lighter);\n  color: var(--text-color-less-intense);\n  opacity: 0.85;\n}\n"],
+  "mappings": "AAAA,MACE,SAAA,SACA,OAAA,EACA,KAAA,EACA,MAAA,EACA,QAAA,KACA,eAAA,KACA,QAAA,MAEA,MAAA,CAAA,qBACE,OAAA,IACA,WAAA,IAAA,yBACA,QAAA,GAIJ,CAAA,MACE,QAAA,aACA,eAAA,KACA,QAAA,IAAA,aAAA,IACA,UAAA,KACA,YAAA,EACA,wBAAA,IAAA,sBACA,WAAA,IAAA,cACA,MAAA,IAAA,2BACA,QAAA",
+  "names": []
+}

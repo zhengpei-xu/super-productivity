@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/imex/file-imex/file-imex.component.scss"],
+  "sourcesContent": [".import-text-area {\n  width: 100%;\n  display: block;\n  margin-top: var(--s2);\n  min-height: 90px;\n  margin-bottom: var(--s);\n}\n\na,\nbutton {\n  margin-bottom: var(--s);\n  margin-right: var(--s);\n}\n\nsection {\n  margin-top: var(--s2);\n}\n"],
+  "mappings": "AAAA,CAAA,iBACE,MAAA,KACA,QAAA,MACA,WAAA,IAAA,MACA,WAAA,KACA,cAAA,IAAA,KAGF,EAAA,OAEE,cAAA,IAAA,KACA,aAAA,IAAA,KAGF,QACE,WAAA,IAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/util/is-android-web-view.ts"],
+  "sourcesContent": ["import { InjectionToken } from '@angular/core';\n\nexport const IS_ANDROID_WEB_VIEW = !!(window as any).SUPAndroid;\nexport const IS_F_DROID_APP = !!(window as any).SUPFDroid;\n\n/**\n * Injection token for IS_ANDROID_WEB_VIEW to enable testing.\n * Use this in effects/services that need to be unit tested.\n */\nexport const IS_ANDROID_WEB_VIEW_TOKEN = new InjectionToken<boolean>(\n  'IS_ANDROID_WEB_VIEW',\n  {\n    providedIn: 'root',\n    factory: () => IS_ANDROID_WEB_VIEW,\n  },\n);\n"],
+  "mappings": "yFAAA,IAEaA,EACAC,EAMAC,EATbC,EAAAC,EAAA,kBAAAC,IAEaL,EAAsB,CAAC,CAAEM,OAAeC,WACxCN,EAAiB,CAAC,CAAEK,OAAeE,UAMnCN,EAA4B,IAAIO,EAC3C,sBACA,CACEC,WAAY,OACZC,QAASA,IAAMX,EAChB",
+  "names": ["IS_ANDROID_WEB_VIEW", "IS_F_DROID_APP", "IS_ANDROID_WEB_VIEW_TOKEN", "init_is_android_web_view", "__esmMin", "init_core", "window", "SUPAndroid", "SUPFDroid", "InjectionToken", "providedIn", "factory"]
+}

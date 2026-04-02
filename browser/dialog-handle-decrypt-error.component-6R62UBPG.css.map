@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/imex/sync/dialog-handle-decrypt-error/dialog-handle-decrypt-error.component.scss"],
+  "sourcesContent": [".content {\n  max-width: 400px;\n}\n\n:host mat-form-field {\n  margin-bottom: 0;\n  width: 100%;\n}\n\n.option-section {\n  text-align: center;\n  margin-top: var(--s2);\n}\n\n.option-label {\n  margin-bottom: 12px;\n  font-size: 0.9em;\n}\n\n.divider {\n  margin: var(--s3) 0;\n  border: none;\n  border-top: 1px solid rgba(128, 128, 128, 0.3);\n}\n"],
+  "mappings": "AAAA,CAAA,QACE,UAAA,MAGF,MAAA,eACE,cAAA,EACA,MAAA,KAGF,CAAA,eACE,WAAA,OACA,WAAA,IAAA,MAGF,CAAA,aACE,cAAA,KACA,UAAA,KAGF,CAAA,QACE,OAAA,IAAA,MAAA,EACA,OAAA,KACA,WAAA,IAAA,MAAA,KAAA,GAAA,CAAA,GAAA,CAAA,GAAA,CAAA",
+  "names": []
+}

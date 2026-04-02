@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/metric/reflection-note/reflection-note.component.scss"],
+  "sourcesContent": [":host {\n  display: flex;\n  flex-direction: column;\n  gap: var(--s);\n\n  mat-form-field {\n    margin-bottom: 0;\n  }\n}\n\n.reflection-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-top: -8px;\n}\n\n.reflection-header__title {\n  font-weight: 600;\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,KACA,eAAA,OACA,IAAA,IAAA,KAEA,MAAA,eACE,cAAA,EAIJ,CAAA,kBACE,QAAA,KACA,YAAA,OACA,gBAAA,cACA,WAAA,KAGF,CAAA,yBACE,YAAA",
+  "names": []
+}

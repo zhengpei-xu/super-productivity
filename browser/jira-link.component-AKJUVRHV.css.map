@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/issue/issue-content/issue-content-custom/jira-link/jira-link.component.scss"],
+  "sourcesContent": [".jira-issue-link {\n  text-decoration: none;\n  color: var(--palette-primary-main);\n\n  &:hover {\n    text-decoration: underline;\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,gBACE,gBAAA,KACA,MAAA,IAAA,wBAEA,CAJF,eAIE,OACE,gBAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/project/dialogs/create-project/dialog-create-project.component.scss"],
+  "sourcesContent": ["h1,\nmat-dialog-actions {\n  :host-context([dir='rtl']) & {\n    direction: rtl;\n  }\n}\n"],
+  "mappings": "AAEE,cAAA,CAAA,GAAA,CAAA,MAAA,GAAA,cAAA,CAAA,GAAA,CAAA,MAAA,mBACE,UAAA",
+  "names": []
+}

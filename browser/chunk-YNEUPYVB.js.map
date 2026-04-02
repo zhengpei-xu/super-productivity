@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/core/drop-paste-input/drop-paste.model.ts"],
+  "sourcesContent": ["export type DropPasteInputType = 'FILE' | 'LINK' | 'IMG' | 'COMMAND' | 'NOTE';\n\nexport interface DropPasteInput {\n  title: string;\n  type: DropPasteInputType;\n  path: string;\n  icon: string;\n}\n\nexport enum DropPasteIcons {\n  FILE = 'insert_drive_file',\n  LINK = 'bookmark',\n  IMG = 'image',\n  COMMAND = 'laptop_windows',\n  NOTE = 'note',\n}\n"],
+  "mappings": "mCASA,IAAYA,EAAZC,EAAAC,EAAA,kBAAYF,GAAZ,SAAYA,EAAc,CACxBA,OAAAA,EAAA,KAAA,oBACAA,EAAA,KAAA,WACAA,EAAA,IAAA,QACAA,EAAA,QAAA,iBACAA,EAAA,KAAA,OALUA,CAMZ,GANYA,GAAc,CAAA,CAAA",
+  "names": ["DropPasteIcons", "init_drop_paste_model", "__esmMin"]
+}

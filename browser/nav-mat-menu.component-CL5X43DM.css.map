@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/core-ui/magic-side-nav/nav-mat-menu/nav-mat-menu.component.scss"],
+  "sourcesContent": ["/* Reuse existing nav-link and nav-icon classes from side nav styles */\n:host {\n  display: contents;\n}\n"],
+  "mappings": "AACA,MACE,QAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/config/icon-input/icon-input.component.scss"],
+  "sourcesContent": [":host {\n  display: inline-flex;\n  align-items: baseline;\n  box-sizing: border-box;\n  width: 100%;\n\n  mat-icon {\n    margin-right: var(--s);\n    font-size: 16px;\n    height: 16px;\n    width: 16px;\n  }\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,YACA,YAAA,SACA,WAAA,WACA,MAAA,KAEA,MAAA,SACE,aAAA,IAAA,KACA,UAAA,KACA,OAAA,KACA,MAAA",
+  "names": []
+}

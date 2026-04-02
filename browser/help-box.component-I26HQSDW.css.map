@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/ui/help-box/help-box.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  position: sticky;\n  top: 16px;\n  background: var(--bg);\n  z-index: 200;\n  margin: var(--s);\n  border: 2px solid var(--separator-color);\n  border-radius: var(--card-border-radius);\n\n  .help-box {\n    position: relative;\n    padding: var(--s);\n    border: 1px solid var(--color-border);\n    border-radius: var(--card-border-radius);\n    background-color: var(--color-bg-info);\n  }\n\n  .close-btn {\n    position: absolute;\n    top: 4px;\n    right: 4px;\n  }\n\n  //.help-box-content {}\n\n  :host-context([dir='rtl']) {\n    .close-btn {\n      right: unset;\n      left: 4px;\n    }\n  }\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MACA,SAAA,OACA,IAAA,KACA,WAAA,IAAA,MACA,QAAA,IACA,OAAA,IAAA,KACA,OAAA,IAAA,MAAA,IAAA,mBACA,cAAA,IAAA,sBAEA,MAAA,CAAA,SACE,SAAA,SACA,QAAA,IAAA,KACA,OAAA,IAAA,MAAA,IAAA,gBACA,cAAA,IAAA,sBACA,iBAAA,IAAA,iBAGF,MAAA,CAAA,UACE,SAAA,SACA,IAAA,IACA,MAAA,IAMA,MAAA,cAAA,CAAA,GAAA,CAAA,MAAA,CATF,UAUI,MAAA,MACA,KAAA",
+  "names": []
+}

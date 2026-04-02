@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/tasks/task-summary-tables/task-summary-tables.component.scss"],
+  "sourcesContent": [".project-section {\n  margin-top: var(--s);\n  margin-bottom: var(--s3);\n}\n\n.project-title {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n  border-bottom: 2px solid;\n\n  border-color: var(--extra-border-color);\n\n  mat-icon {\n    margin: 0 var(--s-half);\n  }\n\n  h2,\n  h3 {\n    margin: 0;\n    padding: 0;\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,gBACE,WAAA,IAAA,KACA,cAAA,IAAA,MAGF,CAAA,cACE,QAAA,KACA,YAAA,OACA,gBAAA,OACA,UAAA,KACA,cAAA,IAAA,MAEA,aAAA,IAAA,sBAEA,CATF,cASE,SACE,OAAA,EAAA,IAAA,UAGF,CAbF,cAaE,GAAA,CAbF,cAaE,GAlBF,OAoBI,EApBJ,QAqBI",
+  "names": []
+}

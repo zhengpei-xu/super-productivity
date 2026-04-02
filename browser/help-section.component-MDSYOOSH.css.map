@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/ui/help-section/help-section.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n\n  .help-text {\n    margin-bottom: var(--s5);\n    border-width: 2px;\n    border-left: 0;\n    border-right: 0;\n    border-style: solid;\n    padding: 0 var(--s2);\n  }\n\n  .help-btn {\n    position: absolute;\n    top: -8px;\n    right: -8px;\n    z-index: 1;\n  }\n\n  :host-context([dir='rtl']) {\n    .help-btn {\n      position: absolute;\n      right: unset;\n      left: -8px;\n    }\n  }\n\n  .help-icon-wrapper {\n    margin-top: var(--s);\n    margin-bottom: var(--s);\n    text-align: center;\n  }\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MAEA,MAAA,CAAA,UACE,cAAA,IAAA,MACA,aAAA,IACA,YAAA,EACA,aAAA,EACA,aAAA,MACA,QAAA,EAAA,IAAA,MAGF,MAAA,CAAA,SACE,SAAA,SACA,IAAA,KACA,MAAA,KACA,QAAA,EAIA,MAAA,cAAA,CAAA,GAAA,CAAA,MAAA,CARF,SASI,SAAA,SACA,MAAA,MACA,KAAA,KAIJ,MAAA,CAAA,kBACE,WAAA,IAAA,KACA,cAAA,IAAA,KACA,WAAA",
+  "names": []
+}

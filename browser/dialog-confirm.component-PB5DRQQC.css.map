@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/ui/dialog-confirm/dialog-confirm.component.scss"],
+  "sourcesContent": [".content {\n  // avoid one long line of difficult to read text, but also don't make the text less wide than the buttons\n  max-width: 420px;\n}\n"],
+  "mappings": "AAAA,CAAA,QAEE,UAAA",
+  "names": []
+}

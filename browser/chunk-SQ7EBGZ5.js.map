@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/util/parse-db-date-str.ts"],
+  "sourcesContent": ["// Parse 'YYYY-MM-DD' string as a local date (not UTC)\n//\n// ⚠️ Important: new Date('2026-01-12') parses as UTC midnight, which becomes\n// the previous day when converted to local timezone (e.g., Europe/Berlin UTC+1).\n// This function parses the string as a local date to avoid timezone issues.\n//\n// Examples:\n// - new Date('2026-01-12') in Europe/Berlin → 2026-01-11 23:00 (UTC midnight)\n// - parseDbDateStr('2026-01-12') → 2026-01-12 00:00 (local midnight)\n\nexport const parseDbDateStr = (dateStr: string): Date => {\n  const [year, month, day] = dateStr.split('-').map(Number);\n  return new Date(year, month - 1, day);\n};\n"],
+  "mappings": "wCAAA,IAUaA,EAVbC,EAAAC,EAAA,kBAUaF,EAAkBG,GAAyB,CACtD,GAAM,CAACC,EAAMC,EAAOC,CAAG,EAAIH,EAAQI,MAAM,GAAG,EAAEC,IAAIC,MAAM,EACxD,OAAO,IAAIC,KAAKN,EAAMC,EAAQ,EAAGC,CAAG,CACtC",
+  "names": ["parseDbDateStr", "init_parse_db_date_str", "__esmMin", "dateStr", "year", "month", "day", "split", "map", "Number", "Date"]
+}

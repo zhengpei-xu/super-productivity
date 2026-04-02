@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/tag/tag-list/tag-list.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  pointer-events: none;\n  // needed because we have inline content and otherwise the height expands\n  line-height: 0;\n}\n\n.tags-container {\n  display: inline-block;\n  position: relative;\n  //margin-left: 50px;\n  // Magic number to align icon with task text\n  user-select: none;\n}\n\n.tags {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: var(--s-half);\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MACA,eAAA,KAEA,YAAA,EAGF,CAAA,eACE,QAAA,aACA,SAAA,SAGA,oBAAA,KAAA,YAAA,KAGF,CAAA,KACE,WAAA,KAhBF,QAiBE,EAjBF,OAkBE,EACA,QAAA,KACA,gBAAA,WACA,YAAA,OACA,UAAA,KACA,IAAA,IAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/issue/two-way-sync/issue-sync-adapter-registry.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { IssueSyncAdapter } from './issue-sync-adapter.interface';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class IssueSyncAdapterRegistryService {\n  private _adapters = new Map<string, IssueSyncAdapter<unknown>>();\n\n  register<TCfg>(key: string, adapter: IssueSyncAdapter<TCfg>): void {\n    this._adapters.set(key, adapter as IssueSyncAdapter<unknown>);\n  }\n\n  get(key: string): IssueSyncAdapter<unknown> | undefined {\n    return this._adapters.get(key);\n  }\n\n  has(key: string): boolean {\n    return this._adapters.has(key);\n  }\n\n  unregister(key: string): void {\n    this._adapters.delete(key);\n  }\n}\n"],
+  "mappings": "yFAAA,IAMaA,EANbC,EAAAC,EAAA,sBAMaF,GAA+B,IAAA,CAAtC,MAAOA,CAA+B,CAH5CG,aAAA,CAIU,KAAAC,UAAY,IAAIC,IAExBC,SAAeC,EAAaC,EAA+B,CACzD,KAAKJ,UAAUK,IAAIF,EAAKC,CAAoC,CAC9D,CAEAE,IAAIH,EAAW,CACb,OAAO,KAAKH,UAAUM,IAAIH,CAAG,CAC/B,CAEAI,IAAIJ,EAAW,CACb,OAAO,KAAKH,UAAUO,IAAIJ,CAAG,CAC/B,CAEAK,WAAWL,EAAW,CACpB,KAAKH,UAAUS,OAAON,CAAG,CAC3B,iDAjBWP,EAA+B,CAAA,iCAA/BA,EAA+Bc,QAA/Bd,EAA+Be,UAAAC,WAF9B,MAAM,CAAA,CAAA,SAEPhB,CAA+B,GAAA",
+  "names": ["IssueSyncAdapterRegistryService", "init_issue_sync_adapter_registry_service", "__esmMin", "constructor", "_adapters", "Map", "register", "key", "adapter", "set", "get", "has", "unregister", "delete", "factory", "\u0275fac", "providedIn"]
+}

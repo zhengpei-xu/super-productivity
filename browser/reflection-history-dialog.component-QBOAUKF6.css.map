@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/metric/reflection-note/reflection-history-dialog.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n.history-empty {\n  margin: 0;\n  opacity: 0.85;\n}\n\n.history-list {\n  display: flex;\n  flex-direction: column;\n  gap: var(--s2);\n}\n\n.history-entry {\n  padding: 12px;\n  border-radius: 10px;\n  border: 1px solid var(--extra-border-color);\n  background: var(--card-bg);\n}\n\n.history-entry__date {\n  font-weight: bold;\n}\n\n.history-entry__day {\n  margin-left: var(--s);\n  font-size: 0.9rem;\n  opacity: 0.7;\n}\n\n.history-entry__text {\n  margin: var(--s) 0 0;\n  white-space: pre-wrap;\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MAGF,CAAA,cAJA,OAKE,EACA,QAAA,IAGF,CAAA,aACE,QAAA,KACA,eAAA,OACA,IAAA,IAAA,MAGF,CAAA,cAfA,QAgBE,KAhBF,cAiBE,KACA,OAAA,IAAA,MAAA,IAAA,sBACA,WAAA,IAAA,WAGF,CAAA,oBACE,YAAA,IAGF,CAAA,mBACE,YAAA,IAAA,KACA,UAAA,MACA,QAAA,GAGF,CAAA,oBACE,OAAA,IAAA,KAAA,EAAA,EACA,YAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;3832e7632949203e6448866228da3e7b87d3c3647f0f78cbf049ba28083e2cd2;/home/runner/work/super-productivity/super-productivity/src/app/plugins/ui/plugin-menu.component.ts"],
+  "sourcesContent": ["\n      .plugin-menu-entry {\n        width: 100%;\n        justify-content: flex-start;\n        margin-bottom: 4px;\n        &.isActive {\n          color: var(--c-primary);\n          font-weight: bold;\n\n          mat-icon {\n            color: var(--c-primary);\n          }\n        }\n\n        mat-icon,\n        plugin-icon {\n          margin-right: 16px;\n        }\n      }\n    "],
+  "mappings": "AACM,CAAC,kBACC,MAAO,KACP,gBAAiB,WACjB,cAAe,GAcjB,CAjBA,CAAC,iBAIE,CAAC,SACA,MAAO,IAAI,aACX,YAAa,GAKf,CAXF,CAAC,iBAIE,CAAC,SAIA,SACE,MAAO,IAAI,YACb,CAVJ,CAAC,kBAaC,SAbF,CAAC,kBAcC,YACE,aAAc,IAChB",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/ui/collapsible/collapsible.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n.collapsible-header {\n  cursor: pointer;\n  user-select: none;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n\n  &:focus {\n    outline: none;\n  }\n\n  :host.isInline & {\n    display: inline-block;\n\n    & > * {\n      display: inline-block;\n      vertical-align: middle;\n    }\n  }\n}\n\n.collapsible-title {\n  flex-grow: 1;\n\n  :host.isInline & {\n    //display: inline-block;\n  }\n}\n\n.collapsible-expand-icon {\n  margin-right: var(--s);\n  transition: all var(--transition-standard);\n\n  :host.isExpanded & {\n    transform: rotate(180deg);\n  }\n}\n\n.collapsible-panel {\n  height: auto;\n  display: block;\n\n  // make sure we don't produce clunky animations\n  padding: 0 !important;\n  margin: 0 !important;\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MAGF,CAAA,mBACE,OAAA,QACA,oBAAA,KAAA,YAAA,KACA,QAAA,KACA,eAAA,IACA,YAAA,OAEA,CAPF,kBAOE,OACE,QAAA,KAGF,KAAA,CAAA,SAAA,CAXF,mBAYI,QAAA,aAEA,KAAA,CAHF,SAGE,CAdJ,kBAcI,CAAA,EACE,QAAA,aACA,eAAA,OAKN,CAAA,kBACE,UAAA,EAOF,CAAA,wBACE,aAAA,IAAA,KACA,WAAA,IAAA,IAAA,uBAEA,KAAA,CAAA,WAAA,CAJF,wBAKI,UAAA,OAAA,QAIJ,CAAA,kBACE,OAAA,KACA,QAAA,MA5CF,QA+CE,YA/CF,OAgDE",
+  "names": []
+}

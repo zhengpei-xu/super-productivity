@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/focus-mode/focus-mode-session-done/focus-mode-session-done.component.scss"],
+  "sourcesContent": [":host {\n  text-align: center;\n}\n\n.msg {\n  margin-bottom: var(--s3);\n  padding: var(--s2);\n}\n\n.task-title-label,\n.worked-for-label {\n  font-size: 14px;\n}\n\n.worked-for-value {\n  font-size: 20px;\n  font-weight: bold;\n  margin: auto;\n  margin-top: var(--s2);\n  margin-bottom: var(--s2);\n  //display: inline-block;\n  //border: 3px solid var(--c-primary);\n  //border-radius: 50%;\n  //min-width: 90px;\n  //height: 90px;\n  //line-height: 90px;\n  padding: 0 var(--s);\n}\n\n.task-title {\n  margin-top: var(--s);\n  font-size: 18px;\n}\n\n.btn-wrapper {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n  margin-top: var(--s4);\n  gap: var(--s);\n}\n"],
+  "mappings": "AAAA,MACE,WAAA,OAGF,CAAA,IACE,cAAA,IAAA,MACA,QAAA,IAAA,MAGF,CAAA,iBAAA,CAAA,iBAEE,UAAA,KAGF,CAAA,iBACE,UAAA,KACA,YAAA,IAhBF,OAiBE,KACA,WAAA,IAAA,MACA,cAAA,IAAA,MAOA,QAAA,EAAA,IAAA,KAGF,CAAA,WACE,WAAA,IAAA,KACA,UAAA,KAGF,CAAA,YACE,QAAA,KACA,YAAA,OACA,gBAAA,OACA,UAAA,KACA,WAAA,IAAA,MACA,IAAA,IAAA",
+  "names": []
+}

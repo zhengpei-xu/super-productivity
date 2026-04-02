@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/ui/progress-bar/progress-bar.component.scss"],
+  "sourcesContent": [":host {\n  position: relative !important;\n  width: 0;\n  height: 0;\n  display: block;\n  left: 0;\n  pointer-events: none;\n  max-width: 100%;\n  z-index: 2;\n  overflow: visible;\n\n  &:after {\n    content: '';\n    background: inherit;\n    position: absolute;\n    width: 100%;\n    height: 3px;\n    top: -5px;\n    left: 2px;\n    right: 2px;\n    border-radius: var(--card-border-radius);\n  }\n\n  //margin-bottom: -2px;\n\n  ////  background-color: #999999;\n  //\n\n  //&:after {\n  //  content: '';\n  //  position: absolute;\n  //  bottom: 50%;\n  //  right: -1px;\n  //  transform: translateY(50%);\n  //  background: inherit;\n  //  width: 2px;\n  //  height: 9px;\n  //  border: 1px solid inherit;\n  //}\n\n  .task.is-done & {\n    //opacity: 0.6;\n  }\n\n  .task.is-current & {\n    //background-color: $green !important;\n  }\n}\n"],
+  "mappings": "AAAA,MACE,SAAA,mBACA,MAAA,EACA,OAAA,EACA,QAAA,MACA,KAAA,EACA,eAAA,KACA,UAAA,KACA,QAAA,EACA,SAAA,QAEA,KAAA,OACE,QAAA,GACA,WAAA,QACA,SAAA,SACA,MAAA,KACA,OAAA,IACA,IAAA,KACA,KAAA,IACA,MAAA,IACA,cAAA,IAAA",
+  "names": []
+}

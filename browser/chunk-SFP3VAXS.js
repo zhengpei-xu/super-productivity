@@ -1,0 +1,2 @@
+import{a as e,j as r}from"./chunk-THQ2ALZE.js";import{e as i}from"./chunk-2NYJ54WT.js";var n,u,l,s=i(()=>{"use strict";r();n=o=>{e&&setTimeout(()=>{window.blur(),window.focus(),o&&typeof o.focus=="function"&&o.focus()},0)},u=o=>{let t=document.activeElement,c=window.confirm(o);return n(t),c},l=o=>{let t=document.activeElement;window.alert(o),n(t)}});export{u as a,l as b,s as c};
+//# sourceMappingURL=chunk-SFP3VAXS.js.map

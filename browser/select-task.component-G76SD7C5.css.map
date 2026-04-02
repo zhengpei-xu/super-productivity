@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/tasks/select-task/select-task.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n\n  mat-form-field {\n    display: block;\n  }\n}\n// NOTE!!! can't style mat option since it is inside cdk-overlay\n"],
+  "mappings": "AAAA,MACE,QAAA,MAEA,MAAA,eACE,QAAA",
+  "names": []
+}

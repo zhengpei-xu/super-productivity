@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/util/dev-error.ts"],
+  "sourcesContent": ["import { environment } from '../../environments/environment';\nimport { Log } from '../core/log';\nimport { alertDialog, confirmDialog } from './native-dialogs';\n\nlet isShowAlert = true;\n\n/** @internal - for testing only */\nexport const _resetDevErrorState = (): void => {\n  isShowAlert = true;\n};\n\nexport const devError = (errStr: string | Error | unknown): void => {\n  if (environment.production) {\n    Log.err(errStr);\n    // TODO add super simple snack message if possible\n  } else {\n    if (isShowAlert) {\n      alertDialog('devERR: ' + errStr);\n      isShowAlert = false;\n    }\n    if (confirmDialog(`Throw an error for error? ––– ${errStr}`)) {\n      throw new Error(errStr as string);\n    }\n  }\n};\n"],
+  "mappings": "2JAAA,IAIIA,EAOSC,EAXbC,EAAAC,EAAA,kBAAAC,IACAC,IACAC,IAEIN,EAAc,GAOLC,EAAYM,GAA0C,CACjE,GAAIC,EAAYC,WACdC,EAAIC,IAAIJ,CAAM,UAGVP,IACFY,EAAY,WAAaL,CAAM,EAC/BP,EAAc,IAEZa,EAAc,gDAAiCN,CAAM,EAAE,EACzD,MAAM,IAAIO,MAAMP,CAAgB,CAGtC",
+  "names": ["isShowAlert", "devError", "init_dev_error", "__esmMin", "init_environment", "init_log", "init_native_dialogs", "errStr", "environment", "production", "Log", "err", "alertDialog", "confirmDialog", "Error"]
+}

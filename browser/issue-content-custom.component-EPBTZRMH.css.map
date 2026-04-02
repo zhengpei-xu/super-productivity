@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/issue/issue-content/issue-content-custom/issue-content-custom.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n"],
+  "mappings": "AAAA,MACE,QAAA",
+  "names": []
+}

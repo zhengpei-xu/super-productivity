@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/ui/formly-image-input/formly-image-input.component.scss"],
+  "sourcesContent": [".image-input-container {\n  display: flex;\n  gap: 0.5rem;\n  align-items: flex-start;\n\n  input {\n    flex: 1;\n  }\n\n  .unsplash-button {\n    margin-top: 0.75rem;\n    white-space: nowrap;\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,sBACE,QAAA,KACA,IAAA,MACA,YAAA,WAEA,CALF,sBAKE,MACE,KAAA,EAGF,CATF,sBASE,CAAA,gBACE,WAAA,OACA,YAAA",
+  "names": []
+}

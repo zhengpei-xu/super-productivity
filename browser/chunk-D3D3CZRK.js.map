@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/util/input-intent.ts"],
+  "sourcesContent": ["import { computed } from '@angular/core';\nimport { deviceType } from 'detect-it';\nimport { IS_TOUCH_ONLY } from './is-touch-only';\nimport { _inputIntentSignal } from '../core/input-intent/input-intent.service';\nimport { DRAG_DELAY_FOR_TOUCH } from '../app.constants';\n\nexport const isTouchActive = computed(() => {\n  if (deviceType !== 'hybrid') {\n    return IS_TOUCH_ONLY;\n  }\n  return _inputIntentSignal() === 'touch';\n});\n\nexport const dragDelayForTouch = computed(() =>\n  isTouchActive() ? DRAG_DELAY_FOR_TOUCH : 0,\n);\n"],
+  "mappings": "mNAAA,IAMaA,EAOAC,EAbbC,EAAAC,EAAA,kBAAAC,IACAC,IACAC,IACAC,IACAC,IAEaR,EAAgBS,EAAS,IAChCC,IAAe,SACVC,EAEFC,EAAkB,IAAO,OACjC,EAEYX,EAAoBQ,EAAS,IACxCT,EAAa,EAAKa,EAAuB,CAAC",
+  "names": ["isTouchActive", "dragDelayForTouch", "init_input_intent", "__esmMin", "init_core", "init_detect_it_esm", "init_is_touch_only", "init_input_intent_service", "init_app_constants", "computed", "deviceType", "IS_TOUCH_ONLY", "_inputIntentSignal", "DRAG_DELAY_FOR_TOUCH"]
+}

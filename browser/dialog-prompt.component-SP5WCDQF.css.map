@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/ui/dialog-prompt/dialog-prompt.component.scss"],
+  "sourcesContent": [".content {\n  max-width: 300px;\n}\n\n:host mat-dialog-content.isNoMsg {\n  padding: 0;\n}\n\n:host mat-form-field {\n  margin-bottom: 0;\n}\n"],
+  "mappings": "AAAA,CAAA,QACE,UAAA,MAGF,MAAA,kBAAA,CAAA,QAJA,QAKE,EAGF,MAAA,eACE,cAAA",
+  "names": []
+}

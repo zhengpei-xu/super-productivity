@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/imex/dialog-confirm-url-import/dialog-confirm-url-import.component.scss"],
+  "sourcesContent": [".warning-text {\n  color: var(--palette-warn-700); // Using CSS variable for theme consistency\n  font-weight: bold;\n}\n\n.domain-link {\n  word-break: break-all;\n  margin-left: 0.5rem;\n}\n"],
+  "mappings": "AAAA,CAAA,aACE,MAAA,IAAA,oBACA,YAAA,IAGF,CAAA,YACE,WAAA,UACA,YAAA",
+  "names": []
+}

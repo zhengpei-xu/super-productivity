@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/focus-mode/focus-mode-break/focus-mode-break.component.scss"],
+  "sourcesContent": [".focus-mode-break {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  text-align: center;\n  gap: 2rem;\n}\n\n.timer-container {\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n\n  .timer-text {\n    position: absolute;\n    font-size: 1.8rem;\n    font-weight: 500;\n  }\n\n  // Pause/Resume button inside the circle (top center)\n  .pause-resume-btn {\n    position: absolute;\n    top: 8px;\n    left: 50%;\n    transform: translateX(-50%);\n  }\n}\n\n.break-message {\n  font-size: 1.1rem;\n  opacity: 0.8;\n  margin: 0;\n}\n\n.button-row {\n  display: flex;\n  gap: 1rem;\n  align-items: center;\n}\n"],
+  "mappings": "AAAA,CAAA,iBACE,QAAA,KACA,eAAA,OACA,YAAA,OACA,gBAAA,OACA,OAAA,KACA,WAAA,OACA,IAAA,KAGF,CAAA,gBACE,SAAA,SACA,QAAA,KACA,YAAA,OACA,gBAAA,OAEA,CANF,gBAME,CAAA,WACE,SAAA,SACA,UAAA,OACA,YAAA,IAIF,CAbF,gBAaE,CAAA,iBACE,SAAA,SACA,IAAA,IACA,KAAA,IACA,UAAA,UAAA,MAIJ,CAAA,cACE,UAAA,OACA,QAAA,GAjCF,OAkCE,EAGF,CAAA,WACE,QAAA,KACA,IAAA,KACA,YAAA",
+  "names": []
+}

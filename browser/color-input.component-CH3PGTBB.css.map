@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/config/color-input/color-input.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  width: 100%;\n  padding: var(--s) 0;\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MACA,MAAA,KACA,QAAA,IAAA,KAAA",
+  "names": []
+}

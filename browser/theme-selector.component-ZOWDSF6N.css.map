@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;935cee31f61f2710e822d1107e2d38bee0356177e61301d9212aeb4a90cba577;/home/runner/work/super-productivity/super-productivity/src/app/core/theme/theme-selector/theme-selector.component.ts"],
+  "sourcesContent": ["\n      .theme-selector-container {\n        display: flex;\n        flex-direction: column;\n        gap: 24px;\n        margin: 20px 0;\n      }\n\n      .dark-mode-select,\n      .theme-select {\n        display: flex;\n        align-items: center;\n        gap: 16px;\n      }\n\n      h3 {\n        margin: 0;\n        min-width: 100px;\n      }\n\n      mat-form-field {\n        flex: 1;\n        max-width: 300px;\n      }\n\n      .theme-mode-indicator {\n        opacity: 0.7;\n        margin-left: 4px;\n      }\n\n      @media (max-width: 600px) {\n        .dark-mode-select,\n        .theme-select {\n          flex-direction: column;\n          align-items: flex-start;\n        }\n\n        mat-form-field {\n          width: 100%;\n          max-width: none;\n        }\n      }\n    "],
+  "mappings": "AACM,CAAC,yBACC,QAAS,KACT,eAAgB,OAChB,IAAK,KAJb,OAKgB,KAAK,CACf,CAEA,CAAC,iBACD,CAAC,aACC,QAAS,KACT,YAAa,OACb,IAAK,IACP,CAEA,GAfN,OAgBgB,EACR,UAAW,KACb,CAEA,eACE,KAAM,EACN,UAAW,KACb,CAEA,CAAC,qBACC,QAAS,GACT,YAAa,GACf,CAEA,OAAO,UAAY,OACjB,CAvBD,iBAwBC,CAvBD,aAwBG,eAAgB,OAChB,YAAa,UACf,CAEA,eACE,MAAO,KACP,UAAW,IACb,CACF",
+  "names": []
+}

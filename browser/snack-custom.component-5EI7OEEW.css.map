@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/core/snack/snack-custom/snack-custom.component.scss"],
+  "sourcesContent": [":host {\n  background: inherit;\n}\n\n.wrapper {\n  display: flex;\n  align-items: center;\n  justify-content: stretch;\n}\n\n.snack-icon {\n  margin-right: var(--s2);\n  position: relative;\n  z-index: 2;\n  //background: inherit;\n\n  .success & {\n    color: var(--success-green);\n  }\n\n  .error & {\n    color: var(--c-warn);\n  }\n\n  .warning & {\n    color: var(--c-accent);\n  }\n}\n\n.message {\n  flex: 1;\n}\n\nbutton {\n  margin: 0;\n  margin-left: calc(1.5 * var(--s));\n}\n\n.button-wrapper {\n  margin-left: auto;\n}\n\n.button-wrapper-inner {\n  margin-top: -14px;\n  margin-bottom: -14px;\n  margin-right: -8px;\n}\n\nmat-progress-bar {\n  position: absolute;\n  bottom: 2px;\n  left: 0;\n  right: 0;\n}\n"],
+  "mappings": "AAAA,MACE,WAAA,QAGF,CAAA,QACE,QAAA,KACA,YAAA,OACA,gBAAA,QAGF,CAAA,WACE,aAAA,IAAA,MACA,SAAA,SACA,QAAA,EAGA,CAAA,QAAA,CANF,WAOI,MAAA,IAAA,iBAGF,CAAA,MAAA,CAVF,WAWI,MAAA,IAAA,UAGF,CAAA,QAAA,CAdF,WAeI,MAAA,IAAA,YAIJ,CAAA,QACE,KAAA,EAGF,OAjCA,OAkCE,EACA,YAAA,KAAA,IAAA,EAAA,IAAA,MAGF,CAAA,eACE,YAAA,KAGF,CAAA,qBACE,WAAA,MACA,cAAA,MACA,aAAA,KAGF,iBACE,SAAA,SACA,OAAA,IACA,KAAA,EACA,MAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/config/config-sound-form/config-sound-form.component.scss"],
+  "sourcesContent": [".form-wrapper {\r\n  overflow: hidden;\r\n  padding: var(--s2) var(--s2) var(--s) !important;\r\n\r\n  config-form {\r\n    display: block;\r\n  }\r\n}\r\n\r\n.width100 {\r\n  width: 100%;\r\n}\r\n\r\n:host {\r\n  position: relative;\r\n  display: block;\r\n}\r\n\r\n$this-panel-padding-left-right: 12px;\r\n\r\n:host ::ng-deep .collapsible-header {\r\n  font-size: 16px;\r\n  margin-top: 0;\r\n  padding: 10px $this-panel-padding-left-right;\r\n}\r\n\r\n:host ::ng-deep .collapsible-panel {\r\n  //border-top: 1px solid black;\r\n  overflow: visible;\r\n\r\n  > * {\r\n    // for help icon positioning\r\n    // does not work because of translate on the slide down ani element\r\n    // position: static;\r\n\r\n    // add a padding\r\n    padding: 0 $this-panel-padding-left-right;\r\n  }\r\n}\r\n\r\n:host ::ng-deep .extra-margin-top {\r\n  margin-top: var(--s4);\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,aACE,SAAA,OACA,QAAA,IAAA,MAAA,IAAA,MAAA,IAAA,eAEA,CAJF,aAIE,YACE,QAAA,MAIJ,CAAA,SACE,MAAA,KAGF,MACE,SAAA,SACA,QAAA,MAKF,MAAA,UAAA,CAAA,mBACE,UAAA,KACA,WAAA,EAtBF,QAuBE,KAAA,KAGF,MAAA,UAAA,CAAA,kBAEE,SAAA,QAEA,MAAA,UAAA,CAJF,iBAIE,CAAA,EA9BF,QAoCI,EAAA,KAIJ,MAAA,UAAA,CAAA,iBACE,WAAA,IAAA",
+  "names": []
+}

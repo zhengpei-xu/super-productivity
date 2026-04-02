@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/issue/providers/open-project/open-project-view-components/openproject-cfg/open-project-additional-cfg.component.scss"],
+  "sourcesContent": [".controls {\n  clear: both;\n  text-align: right;\n  margin-bottom: var(--s);\n}\n\nmat-slider {\n  width: 100%;\n}\n"],
+  "mappings": "AAAA,CAAA,SACE,MAAA,KACA,WAAA,MACA,cAAA,IAAA,KAGF,WACE,MAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/op-log/persistence/dialog-legacy-migration/dialog-legacy-migration.component.scss"],
+  "sourcesContent": [".intro {\n  margin-bottom: 1.5rem;\n  line-height: 1.5;\n}\n\n.status-container {\n  display: flex;\n  align-items: center;\n  gap: 1rem;\n  padding: 1rem;\n  background: var(--mdc-dialog-subhead-color, rgba(0, 0, 0, 0.04));\n  border-radius: 8px;\n}\n\n.status-text {\n  font-size: 1rem;\n}\n\n.success-icon {\n  color: var(--palette-green-500, #4caf50);\n  font-size: 32px;\n  width: 32px;\n  height: 32px;\n}\n\n.error-state {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 1rem;\n  text-align: center;\n  padding: 1rem;\n\n  mat-icon {\n    color: var(--palette-red-500, #f44336);\n    font-size: 48px;\n    width: 48px;\n    height: 48px;\n  }\n}\n\n.error-message {\n  color: var(--palette-red-700, #d32f2f);\n  line-height: 1.5;\n}\n"],
+  "mappings": "AAAA,CAAA,MACE,cAAA,OACA,YAAA,IAGF,CAAA,iBACE,QAAA,KACA,YAAA,OACA,IAAA,KARF,QASE,KACA,WAAA,IAAA,0BAAA,EAAA,KAAA,CAAA,EAAA,CAAA,EAAA,CAAA,EAAA,MAVF,cAWE,IAGF,CAAA,YACE,UAAA,KAGF,CAAA,aACE,MAAA,IAAA,mBAAA,EAAA,SACA,UAAA,KACA,MAAA,KACA,OAAA,KAGF,CAAA,YACE,QAAA,KACA,eAAA,OACA,YAAA,OACA,IAAA,KACA,WAAA,OA9BF,QA+BE,KAEA,CARF,YAQE,SACE,MAAA,IAAA,iBAAA,EAAA,SACA,UAAA,KACA,MAAA,KACA,OAAA,KAIJ,CAAA,cACE,MAAA,IAAA,iBAAA,EAAA,SACA,YAAA",
+  "names": []
+}

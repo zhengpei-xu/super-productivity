@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;fef33524300210dd4c8c6b9787591f31797e5c6837f15d16536c5eed08b38952;/home/runner/work/super-productivity/super-productivity/src/app/features/user-profile/user-profile-button/user-profile-button.component.ts"],
+  "sourcesContent": ["\n      .profile-btn {\n        margin-left: 8px;\n      }\n\n      .profile-menu-header {\n        padding: 8px 16px;\n        border-bottom: 1px solid rgba(0, 0, 0, 0.12);\n        margin-bottom: 4px;\n      }\n    "],
+  "mappings": "AACM,CAAC,YACC,YAAa,GACf,CAEA,CAAC,oBALP,QAMiB,IAAI,KACb,cAAe,IAAI,MAAM,KAAK,CAAC,CAAE,CAAC,CAAE,CAAC,CAAE,KACvC,cAAe,GACjB",
+  "names": []
+}

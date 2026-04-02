@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/donate-page/donate-page.component.scss"],
+  "sourcesContent": [".page-wrapper {\n  padding: calc(var(--s) * 2);\n  max-width: 600px;\n  margin: 0 auto;\n  text-align: center;\n}\n\n.content {\n  margin-top: calc(var(--s) * 4);\n}\n\np {\n  margin-bottom: calc(var(--s) * 2);\n  font-size: 1.2rem;\n  line-height: 1.6;\n}\n\n//.mat-mdc-raised-button {\n//  margin-top: calc(var(--s) * 2);\n//  padding: var(--s) calc(var(--s) * 3);\n//  font-size: 1.2rem;\n//\n//  mat-icon {\n//    margin-right: var(--s);\n//  }\n//}\n"],
+  "mappings": "AAAA,CAAA,aACE,QAAA,KAAA,IAAA,KAAA,EAAA,GACA,UAAA,MAFF,OAGE,EAAA,KACA,WAAA,OAGF,CAAA,QACE,WAAA,KAAA,IAAA,KAAA,EAAA,GAGF,EACE,cAAA,KAAA,IAAA,KAAA,EAAA,GACA,UAAA,OACA,YAAA",
+  "names": []
+}

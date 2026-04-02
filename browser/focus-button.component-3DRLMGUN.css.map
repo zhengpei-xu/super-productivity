@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/core-ui/main-header/focus-button/focus-button.component.scss", "src/styles/components/_number-badge.scss"],
+  "sourcesContent": ["@use '../../../../styles/_globals.scss' as *;\n@use '../../../../styles/components/number-badge' as badge;\n\n:host {\n  display: inline-flex;\n  align-items: center;\n  height: var(--header-button-size);\n}\n\n.focus-btn-wrapper {\n  position: relative;\n  display: inline-flex;\n  align-items: center;\n  height: 100%;\n}\n.focus-label {\n  @include badge.number-badge;\n}\n", "@use '../_globals.scss' as *;\n\n@mixin number-badge {\n  margin-left: 0;\n  position: absolute;\n  line-height: 1;\n  padding: 2px 4px 1px;\n  width: auto;\n  left: 50%;\n  transform: translateX(-50%);\n  font-weight: bold;\n  border-radius: 8px;\n  z-index: 4;\n  font-size: 12px;\n  pointer-events: none;\n  bottom: calc(-1 * var(--s-quarter));\n  background: var(--bg-lighter);\n  color: var(--text-color-most-intense);\n}\n"],
+  "mappings": "AAGA,MACE,QAAA,YACA,YAAA,OACA,OAAA,IAAA,sBAGF,CAAA,kBACE,SAAA,SACA,QAAA,YACA,YAAA,OACA,OAAA,KAEF,CAAA,YCZE,YAAA,EACA,SAAA,SACA,YAAA,EDFF,QCGE,IAAA,IAAA,IACA,MAAA,KACA,KAAA,IACA,UAAA,UAAA,MACA,YAAA,IDPF,cCQE,IACA,QAAA,EACA,UAAA,KACA,eAAA,KACA,OAAA,KAAA,GAAA,EAAA,IAAA,cACA,WAAA,IAAA,cACA,MAAA,IAAA",
+  "names": []
+}

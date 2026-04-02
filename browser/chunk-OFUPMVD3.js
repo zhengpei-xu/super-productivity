@@ -1,0 +1,2 @@
+import{c as r,f as i}from"./chunk-Z5JJXWLT.js";import{e as n,k as e}from"./chunk-2NYJ54WT.js";var t,l=n(()=>{i();t=class extends r{canShare(){return e(this,null,function*(){return typeof navigator>"u"||!navigator.share?{value:!1}:{value:!0}})}share(a){return e(this,null,function*(){if(typeof navigator>"u"||!navigator.share)throw this.unavailable("Share API not available in this browser");return yield navigator.share({title:a.title,text:a.text,url:a.url}),{}})}}});l();export{t as ShareWeb};
+//# sourceMappingURL=chunk-OFUPMVD3.js.map

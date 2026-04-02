@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/util/is-object.ts"],
+  "sourcesContent": ["export const isObject = (obj: unknown): obj is object => obj === Object(obj);\n"],
+  "mappings": "wCAAA,IAAaA,EAAbC,EAAAC,EAAA,kBAAaF,EAAYG,GAAgCA,IAAQC,OAAOD,CAAG",
+  "names": ["isObject", "init_is_object", "__esmMin", "obj", "Object"]
+}

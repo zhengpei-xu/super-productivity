@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/menu-tree/store/menu-tree.selectors.ts"],
+  "sourcesContent": ["import { createFeatureSelector, createSelector } from '@ngrx/store';\nimport { MenuTreeState } from './menu-tree.model';\nimport { menuTreeFeatureKey } from './menu-tree.reducer';\n\nexport const selectMenuTreeState =\n  createFeatureSelector<MenuTreeState>(menuTreeFeatureKey);\n\nexport const selectMenuTreeProjectTree = createSelector(\n  selectMenuTreeState,\n  (state) => state.projectTree,\n);\n\nexport const selectMenuTreeTagTree = createSelector(\n  selectMenuTreeState,\n  (state) => state.tagTree,\n);\n"],
+  "mappings": "wIAAA,IAIaA,EAGAC,EAKAC,EAZbC,EAAAC,EAAA,kBAAAC,IAEAC,IAEaN,EACXO,EAAqCC,CAAkB,EAE5CP,EAA4BQ,EACvCT,EACCU,GAAUA,EAAMC,WAAW,EAGjBT,EAAwBO,EACnCT,EACCU,GAAUA,EAAME,OAAO",
+  "names": ["selectMenuTreeState", "selectMenuTreeProjectTree", "selectMenuTreeTagTree", "init_menu_tree_selectors", "__esmMin", "init_ngrx_store", "init_menu_tree_reducer", "createFeatureSelector", "menuTreeFeatureKey", "createSelector", "state", "projectTree", "tagTree"]
+}

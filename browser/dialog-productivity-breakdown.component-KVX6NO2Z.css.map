@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/metric/dialog-productivity-breakdown/dialog-productivity-breakdown.component.scss"],
+  "sourcesContent": [".chart-section {\n  margin-bottom: var(--s3);\n}\n\n.breakdown-table {\n  width: 100%;\n  border-collapse: collapse;\n\n  th,\n  td {\n    padding: var(--s);\n    text-align: left;\n  }\n\n  thead {\n    background: var(--bg-lightest);\n\n    th {\n      font-weight: 600;\n      border-bottom: 1px solid var(--bg-lighter);\n    }\n  }\n\n  tbody tr:nth-child(even) {\n    background: var(--bg-lightest);\n  }\n}\n\n.no-data {\n  padding: 12px 0;\n  color: var(--fg-secondary);\n}\n"],
+  "mappings": "AAAA,CAAA,cACE,cAAA,IAAA,MAGF,CAAA,gBACE,MAAA,KACA,gBAAA,SAEA,CAJF,gBAIE,GAAA,CAJF,gBAIE,GAEE,QAAA,IAAA,KACA,WAAA,KAGF,CAVF,gBAUE,MACE,WAAA,IAAA,eAEA,CAbJ,gBAaI,MAAA,GACE,YAAA,IACA,cAAA,IAAA,MAAA,IAAA,cAIJ,CAnBF,gBAmBE,MAAA,EAAA,eACE,WAAA,IAAA,eAIJ,CAAA,QA5BA,QA6BE,KAAA,EACA,MAAA,IAAA",
+  "names": []
+}

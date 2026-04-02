@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/work-context/work-context-color.ts"],
+  "sourcesContent": ["export const PRESET_COLORS: readonly string[] = [\n  '#ef5350', // red\n  '#ff7043', // deep orange\n  '#ffa726', // orange\n  '#ffca28', // amber\n  '#ffee58', // yellow\n  '#d4e157', // lime\n  '#9ccc65', // light green\n  '#66bb6a', // green\n  '#29a1aa', // teal\n  '#26c6da', // cyan\n  '#29b6f6', // light blue\n  '#42a5f5', // blue\n  '#5c6bc0', // indigo\n  '#7e57c2', // deep purple\n  '#a05db1', // purple\n  '#ab47bc', // purple alt\n  '#ec407a', // pink\n  '#8d6e63', // brown\n  '#78909c', // blue grey\n];\n\nexport const getRandomWorkContextColor = (): string => {\n  const index = Math.floor(Math.random() * PRESET_COLORS.length);\n  return PRESET_COLORS[index];\n};\n"],
+  "mappings": "mCAAA,IAAaA,EAsBAC,EAtBbC,EAAAC,EAAA,kBAAaH,EAAmC,CAC9C,UACA,UACA,UACA,UACA,UACA,UACA,UACA,UACA,UACA,UACA,UACA,UACA,UACA,UACA,UACA,UACA,UACA,UACA,SAAW,EAGAC,EAA4BA,IAAa,CACpD,IAAMG,EAAQC,KAAKC,MAAMD,KAAKE,OAAM,EAAKP,EAAcQ,MAAM,EAC7D,OAAOR,EAAcI,CAAK,CAC5B",
+  "names": ["PRESET_COLORS", "getRandomWorkContextColor", "init_work_context_color", "__esmMin", "index", "Math", "floor", "random", "length"]
+}

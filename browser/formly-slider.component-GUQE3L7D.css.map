@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;b56fcccd18794a82b549ccc06918aeaddf58deff3430cac23b04cd33b772c480;/home/runner/work/super-productivity/super-productivity/src/app/ui/formly-slider/formly-slider.component.ts"],
+  "sourcesContent": ["\n      :host {\n        display: block;\n        width: 100%;\n      }\n      mat-slider {\n        width: 100%;\n      }\n      mat-form-field {\n        width: 100%;\n      }\n    "],
+  "mappings": "AACM,MACE,QAAS,MACT,MAAO,IACT,CACA,WACE,MAAO,IACT,CACA,eACE,MAAO,IACT",
+  "names": []
+}

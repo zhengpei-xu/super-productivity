@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/imex/sync/dialog-sync-error/dialog-sync-error.component.scss"],
+  "sourcesContent": [":host > * {\n  max-width: 500px;\n}\n\n:host code {\n  font-size: 10px;\n}\n"],
+  "mappings": "AAAA,KAAA,CAAA,EACE,UAAA,MAGF,MAAA,KACE,UAAA",
+  "names": []
+}

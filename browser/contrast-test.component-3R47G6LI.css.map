@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/contrast-test/contrast-test.component.scss"],
+  "sourcesContent": [".test-page {\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: var(--s3);\n\n  h1 {\n    margin-bottom: var(--s);\n  }\n\n  > p {\n    color: var(--text-color-muted);\n    margin-bottom: var(--s4);\n  }\n}\n\n.test-section {\n  margin-bottom: var(--s6);\n  padding: var(--s3);\n  background: var(--card-bg);\n  border-radius: 8px;\n  box-shadow: var(--card-shadow);\n\n  h2 {\n    margin-top: 0;\n    margin-bottom: var(--s2);\n    font-size: 18px;\n    font-weight: 500;\n  }\n}\n\n.button-row {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 12px;\n  align-items: center;\n}\n\n.tab-content {\n  padding: var(--s3);\n}\n"],
+  "mappings": "AAAA,CAAA,UACE,UAAA,OADF,OAEE,EAAA,KACA,QAAA,IAAA,MAEA,CALF,UAKE,GACE,cAAA,IAAA,KAGF,CATF,SASE,CAAA,EACE,MAAA,IAAA,oBACA,cAAA,IAAA,MAIJ,CAAA,aACE,cAAA,IAAA,MACA,QAAA,IAAA,MACA,WAAA,IAAA,WAlBF,cAmBE,IACA,WAAA,IAAA,eAEA,CAPF,aAOE,GACE,WAAA,EACA,cAAA,IAAA,MACA,UAAA,KACA,YAAA,IAIJ,CAAA,WACE,QAAA,KACA,UAAA,KACA,IAAA,KACA,YAAA,OAGF,CAAA,YACE,QAAA,IAAA",
+  "names": []
+}

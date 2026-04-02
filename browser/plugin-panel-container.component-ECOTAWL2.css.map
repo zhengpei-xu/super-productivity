@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;bc8625b453ee8f6ad693d42f11afbbaf573cd886e0eaec51cf34d60bfd0032d8;/home/runner/work/super-productivity/super-productivity/src/app/plugins/ui/plugin-panel-container/plugin-panel-container.component.ts"],
+  "sourcesContent": ["\n      :host {\n        display: block;\n        height: 100%;\n        width: 100%;\n        position: relative;\n      }\n    "],
+  "mappings": "AACM,MACE,QAAS,MACT,OAAQ,KACR,MAAO,KACP,SAAU,QACZ",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/op-log/sync-providers/super-sync/super-sync.model.ts"],
+  "sourcesContent": ["import { SyncProviderPrivateCfgBase } from '../../core/types/sync.types';\n\nexport const SUPER_SYNC_DEFAULT_BASE_URL = 'https://sync.super-productivity.com';\n\nexport interface SuperSyncPrivateCfg extends SyncProviderPrivateCfgBase {\n  /** Base URL of the SuperSync server. Defaults to SUPER_SYNC_DEFAULT_BASE_URL if not set. */\n  baseUrl?: string;\n  /** JWT access token for authentication */\n  accessToken: string;\n  /** Optional refresh token for token renewal */\n  refreshToken?: string;\n  /** Token expiration timestamp (Unix ms) */\n  expiresAt?: number;\n  /** Whether E2E encryption is enabled for operation payloads */\n  isEncryptionEnabled?: boolean;\n  // Note: encryptKey is inherited from SyncProviderPrivateCfgBase\n}\n"],
+  "mappings": "wCAEA,IAAaA,EAAbC,EAAAC,EAAA,kBAAaF,EAA8B",
+  "names": ["SUPER_SYNC_DEFAULT_BASE_URL", "init_super_sync_model", "__esmMin"]
+}

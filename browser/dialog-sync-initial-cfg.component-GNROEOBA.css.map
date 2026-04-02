@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/styles/mixins/_media-queries.scss", "src/app/imex/sync/dialog-sync-initial-cfg/dialog-sync-initial-cfg.component.scss"],
+  "sourcesContent": ["@use 'sass:map';\n\n// Media query breakpoints - must be SASS variables, not CSS variables\n// because media queries are evaluated at parse time\n$layout-xxxs: 398px;\n$layout-xxs: 440px;\n$layout-xs: 600px;\n$layout-sm: 960px;\n$layout-md: 1280px;\n$layout-lg: 1920px;\n$layout-xl: 2000px;\n$component-max-width: 800px;\n\n@mixin mq($size, $type: min) {\n  $f: 0;\n  @if ($type == max) {\n    $f: -1;\n  }\n\n  $width: map.get(\n    (\n      'xxxs': $layout-xxxs,\n      'xxs': $layout-xxs,\n      'xs': $layout-xs,\n      'sm': $layout-sm,\n      'md': $layout-md,\n      'lg': $layout-lg,\n      'xl': $layout-xl,\n      'component': $component-max-width,\n    ),\n    $size\n  );\n\n  @if ($width) {\n    @media screen and ($type + -width: $width  + $f) {\n      @content;\n    }\n  } @else {\n    @error 'Invalid size for mq';\n  }\n}\n", "@use '../../../../styles/_globals.scss' as *;\n\n:host {\n  form {\n    @include mq(xs) {\n      width: 500px;\n    }\n  }\n}\n"],
+  "mappings": "AAkCI,OAAA,YAAA,UAAA,OC/BF,MAAA,KAEI,MAAA",
+  "names": []
+}

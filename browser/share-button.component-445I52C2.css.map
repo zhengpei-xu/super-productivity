@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;51811fd9cd1d4f5579af33837e95e1a824f51cd62c4f5f1a2eab2692dbd415fe;/home/runner/work/super-productivity/super-productivity/src/app/core/share/share-button/share-button.component.ts"],
+  "sourcesContent": ["\n      :host {\n        display: inline-flex;\n      }\n\n      button {\n        opacity: 0.7;\n        transition: opacity 120ms ease-in-out;\n      }\n\n      button:hover,\n      button:focus-visible,\n      button:active {\n        opacity: 1;\n      }\n    "],
+  "mappings": "AACM,MACE,QAAS,WACX,CAEA,OACE,QAAS,GACT,WAAY,QAAQ,KAAM,WAC5B,CAEA,MAAM,OACN,MAAM,eACN,MAAM,QACJ,QAAS,CACX",
+  "names": []
+}
